@@ -7,6 +7,7 @@ public class SearchStock {
 		//int result = binarySearch(stockPriceArray,keyValue);
 		
 		//using Arrays.binarySearch method
+		
 		int result = Arrays.binarySearch(stockPriceArray, keyValue);
 		
 		String res = result>=0?"present":"not found";

@@ -76,6 +76,8 @@ public class Driver {
 			break;
 			case 5:
 			{
+				//sorting the array before searching
+			   ascendingOrder.sort(stockPriceArray, 0, stockPriceArray.length-1);
 			   toFindStock(searchStockObj,stockPriceArray);
 			}
 			break;
