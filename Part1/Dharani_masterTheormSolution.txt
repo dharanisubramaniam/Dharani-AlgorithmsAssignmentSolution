@@ -1,0 +1,18 @@
+a) T (n) = 3T (n/2) + n 
+Θ(n)
+
+
+b) T (n) = 64T (n/8) − n^2(log n) 
+Θ(n^2(log n))
+
+
+c) T (n) = 2nT (n/2) + n^n 
+NA(Because BigOmega notation is Ω(1) and BigOh notation is O(n^n))
+
+
+d) T (n) = 3T (n/3) + n/2 
+Θ(n)
+
+
+e) .T (n) = 7T (n/3) + n^2
+Θ(n^2)
